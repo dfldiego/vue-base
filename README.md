@@ -1,5 +1,13 @@
 # vue-exam
 
+codigo para img
+<img :src="getIconPath(autoEncontrado.imagen)" />
+
+en methods:
+getIconPath(iconName) {
+      return iconName ? require(`../assets/img/${iconName}`) : "";
+    },
+
 ## Project setup
 ```
 npm install
