@@ -1,7 +1,6 @@
 # vue-exam
 
-codigo para img
-<img :src="getIconPath(autoEncontrado.imagen)" />
+codigo para img <img :src="getIconPath(autoEncontrado.imagen)" />
 
 en methods:
 getIconPath(iconName) {
